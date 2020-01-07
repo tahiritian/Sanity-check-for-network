@@ -1,0 +1,7 @@
+show inventory
+show version
+show ip int bri vrf all
+show ip bgp su vrf all
+show ip route vrf all summary
+show interface status
+show cdp nei 

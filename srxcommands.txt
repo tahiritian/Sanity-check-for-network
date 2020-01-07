@@ -1,0 +1,13 @@
+show bgp summary
+show interface terse
+show route summary
+ping 8.8.8.8 routing-instance untrust-vr rapid count 10
+traceroute 8.8.8.8 routing-instance untrust-vr
+show chassis cluster status | find Cluster 
+show system memory node primary |match Free
+show chassis routing-engine |no-more
+show chassis hardware node primary |no-more 
+show security flow session summary |no-more 
+show system processes brief |no-more 
+show system processes extensive |no-more 
+
